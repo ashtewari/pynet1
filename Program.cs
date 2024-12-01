@@ -17,8 +17,8 @@ internal sealed class Program
         try
         {
             PythonEngine.Initialize(false, false);
-            // TranscribeWithOpenAiPythonModule(fileName);
-            TranscribeWithLocalWhisperModel(fileName); 
+            TranscribeWithOpenAiPythonModule(fileName);
+            // TranscribeWithLocalWhisperModel(fileName); 
         }
         finally
         {
